@@ -1,0 +1,7 @@
+[wrap-git]
+url = https://github.com/3uclid3/uSockets
+revision = master
+depth = 1
+
+[provide]
+usockets = usockets_dep

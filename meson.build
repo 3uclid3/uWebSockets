@@ -11,4 +11,5 @@ uwebsockets = custom_target(
 uwebsockets_dep = declare_dependency(
     sources: uwebsockets,
     include_directories: 'install/usr/local/include/uWebSockets',
+    dependencies: dependency('usockets', fallback: ['usockets', 'usockets_dep']),
 )
